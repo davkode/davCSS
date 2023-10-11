@@ -50,7 +50,7 @@ En este Repositorio encontraras:
      );
      ```
 
-   - Clases cascada con sus respectivas clases que ayudaran a una maquetacición responsive y adaptative
+   - Un reset; llevando a todas las etiqutas HTML en su _border, margin, padding, height, width, font-size y font-family_; tengan atributos universales.
 
 <div align="center">
   <img width="180" height="auto" src="assets/img/logo/davSolution.svg" alt="">
@@ -65,7 +65,3 @@ Visita mis redes sociales:
 - <a href="https://www.linkedin.com/in/davisquintero/" target="_blank" class="dav-hover-scale  social-icon"> _**Linkedin**_ </a>
 - <a href="https://github.com/davkintero" target="_blank" class="dav-hover-scale  social-icon"> _**GitHub**_ </a>
 - <a href="https://www.instagram.com/davkintero1/" class="dav-hover-scale  social-icon"> _**Instagran**_ </a>
-
-```
-
-```
