@@ -1,0 +1,130 @@
+@import "../dav/dav-style.css";
+
+/* ! _Banner - BG_ */
+.dav-container-banner-img {
+  min-height: 60vh;
+  background-image: url("../../img/banner/");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.dav-box-banner-img {
+  background-color: var(--cl-blue-rgba);
+}
+.dav-banner-content {
+  width: 100%;
+  color: var(--cl-white);
+}
+.dav-banner-p {
+  font-size: var(--step-1);
+}
+.dav-banner-button {
+  width: 70%;
+}
+
+/* ! _Hero_ */
+.container-hero {
+  min-height: auto;
+}
+.hero-p,
+.hero-title {
+  width: 100%;
+}
+.hero-img > img {
+  max-width: calc(var(--step-5) * 5);
+}
+
+/* ! _Efectos_ */
+.dav-efect {
+  transition: 1.5s ease-in-out;
+}
+.dav-link:hover {
+  transform: scale(1.1);
+  transition: all 0.7s ease;
+}
+
+/* ! _Lineas_ */
+.dav-line {
+  margin: 0.15rem auto;
+  max-width: 80%;
+  min-height: 0.13rem;
+  background-color: var(--cl-grey);
+}
+/*.dav-line-fine {
+  min-height: 0.125rem;
+}
+.dav-line-thick {
+  min-height: 0.15rem;
+}*/
+
+/* ! _Botones_ */
+.dav-button {
+  border-radius: 0.5rem;
+  padding: 0.6rem;
+  font-size: var(--step-0);
+  color: var(--cl-white);
+  box-shadow: var(--shadow);
+  &:hover {
+    transform: scale(1.1);
+    transition: all 0.7s ease;
+  }
+}
+.dav-button-p {
+  background-color: var(--cl-blue);
+}
+.dav-button-s {
+  border: 0.1rem solid var(--cl-white);
+}
+
+.dav-href {
+  border-bottom: solid 0.15rem var(--cl-green);
+  color: var(--cl-blue);
+}
+
+/* ! _Card_ */
+.item-card {
+  padding: 0.8rem;
+}
+.card-border {
+  border: 0.15rem solid var(--cl-grey);
+}
+.card-border-bottom {
+  border-bottom: 0.15rem solid var(--cl-grey);
+}
+.card-border-left {
+  border-left: 0.15rem solid var(--cl-grey);
+}
+.card-border-right {
+  border-right: 0.15rem solid var(--cl-grey);
+}
+.card-border-top {
+  border-top: 0.15rem solid var(--cl-grey);
+}
+.card-p {
+  width: 100%;
+  font-size: var(--step-0);
+}
+.card-img > img {
+  max-width: calc(var(--step-5) * 1.6);
+}
+.card-title {
+  padding: 0.5rem 0 0 0.5rem;
+  font-size: var(--step-1);
+}
+
+@media (width >= 62em) {
+  /* ! _Banner - BG_ */
+  .l-dav-container-banner-img {
+    background-position: right top;
+  }
+  .l-dav-box-banner-img {
+    background-color: transparent;
+    background-image: var(--bg-gradient);
+  }
+  .l-dav-banner-content {
+    width: 70%;
+  }
+  .l-dav-banner-button {
+    width: 20%;
+  }
+}

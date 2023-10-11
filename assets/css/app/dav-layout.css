@@ -1,0 +1,146 @@
+@import "../dav/dav-style.css";
+
+/* * _STYLE - LAYOUT_ */
+/* ! _Header_ */
+.container-header {
+  top: 0;
+  left: 0;
+  padding: 0.4rem 0;
+  min-height: auto;
+  position: sticky;
+  z-index: 999;
+  background-image: var(--bg-radial);
+  .box-header {
+    margin: auto;
+  }
+}
+
+/* ? _Header - Logo_ */
+.header-logo {
+  & img {
+    max-width: calc(var(--step-5) * 4);
+  }
+}
+
+/* ? _Header - Menu_ */
+.header-menu {
+  bottom: 0;
+  right: 0;
+  min-height: 100vh;
+  width: 70%;
+  position: fixed;
+  clip-path: circle(0px at top right);
+  transition: clip-path ease-in-out 700ms;
+  background-color: var(--cl-rgba);
+  & a {
+    padding-bottom: 0.15rem;
+    width: auto;
+    position: relative;
+    font-family: var(--font-p);
+    font-weight: bold;
+    text-align: center;
+    color: var(--cl-white);
+  }
+}
+.menu-open {
+  clip-path: circle(150% at top right);
+}
+
+/* ? _Boton - Toggle_ */
+.menu-toggle {
+  padding: 0.5rem 0.3rem;
+  width: auto;
+  cursor: pointer;
+}
+.toggle-open {
+  .toggle-icon {
+    transform: rotate(45deg);
+    &::before {
+      opacity: 0;
+    }
+    &::after {
+      transform: translateY(-3px) rotate(-90deg);
+    }
+  }
+}
+.toggle-icon {
+  &,
+  &::after,
+  &::before {
+    height: 0.2rem;
+    width: 1.5rem;
+    content: " ";
+    transition: all ease-in-out 500ms;
+    background-color: var(--cl-white);
+  }
+  &::after {
+    transform: translateY(3px);
+  }
+  &::before {
+    transform: translateY(-6px);
+  }
+}
+
+/* ! _Footer_ */
+.container-footer {
+  padding: 1rem;
+  min-height: auto;
+  background-color: var(--cl-white);
+}
+.copy-p {
+  margin: auto;
+  width: auto;
+  font-size: var(--step-0);
+}
+
+/* ? _Firma_ */
+.firma-p {
+  font-size: var(--step-0);
+  .firma-img {
+    margin-left: 0.5rem;
+    & img {
+      max-width: calc(var(--step-2) * 1.6);
+    }
+  }
+}
+.davcode {
+  & p {
+    font-size: var(--step-0);
+  }
+  & a {
+    margin-left: 0.5rem;
+    & img {
+      max-width: calc(var(--step-2) * 2);
+    }
+  }
+}
+
+/* ? _Menu - Social_ */
+.menu-social {
+  margin: auto;
+  width: 50%;
+  & a {
+    font-size: var(--step-2);
+  }
+}
+
+/* *** ---- Sinze ==> L / From ==> 62em ---- */
+@media (width >= 62em) {
+  /* * _STYLE - LAYOUT_ */
+  /* ! _Header_ */
+  /* ? _Header - Menu_ */
+  .header-menu {
+    margin-right: 0;
+    padding: 0;
+    min-height: auto;
+    width: 50%;
+    position: relative;
+    clip-path: initial;
+    background-color: transparent;
+  }
+
+  /* ? _Boton - Toggle_ */
+  .menu-toggle {
+    display: none;
+  }
+}
