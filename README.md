@@ -2,7 +2,7 @@
 
 <div align="right">
 
-# <img width="120" height="auto"  src="assets/img/logo/davCode.svg" alt="Logo_DavisQuintero" >
+# <img width="120" height="auto"  src="assets/img/logo/davCSS.svg" alt="Logo_DavisQuintero" >
 
 </div>
 
@@ -21,6 +21,8 @@
 <br>
 
 <p align="center">Diseño Minimalista.</p>
+
+<p align="center">v1.0.</p>
 
 ---
 
