@@ -8,13 +8,13 @@
 
 <div align="center">
   <p>
-    <b>💾 davCSS</b> es un mini framework para maquetación basados en la filosofia Resposive, Adaptative y Fluid Desing de sitios web fasíl y rapido.
+    <b>💾 davCSS</b> es un mini framework para maquetación de sitios web fácil y rápido basados en la filosofía Resposive, Adaptative y Fluid Design.
   </p>
   <p>
     <b>🚀Arquitectura Frotend</b> (HTML, CSS y JavaScript).
   </p>
   <p>
-    <b>👨🏾‍💻 Codigo con ❤️ nativo puro</b>...
+    <b>👨🏾‍💻 Código con ❤️ nativo puro</b>...
   </p>
 </div>
 
@@ -29,16 +29,16 @@
 \
 En este Repositorio encontraras:
 
-1.  Estrustura de archivos (📃) y carpetas (🗂️) listas para el diseño de un sitio web.
+1.  Estructura de archivos (📃) y carpetas (🗂️) listas para el diseño de un sitio web.
 
 2.  Archivo (📃) _**index.html**_ con una estructura inicial de etiquetas.
 
-3.  Ingrado el proyecto _[Material Design Iconic Font
+3.  Integrado el proyecto _[Material Design Iconic Font
     ](http://zavoloklom.github.io/material-design-iconic-font/icons.html#person)_, por su estilo sencillo y minimalista 😜.
 
-4.  Ingrado la fuente (🖋️) _**zurchlc**_, por su estilo sencillo y minimalista 😜.
+4.  Integrada la fuente (🖋️) _**zurchlc**_, por su estilo sencillo y minimalista 😜.
 
-5.  Hojas de estilos _**(dav-style.css)**_ que contiene toda la magia de la maquetacion:
+5.  Hojas de estilos _**(dav-style.css)**_ que contiene toda la magia de la maquetación:
 
     - La fuente (🖋️) _**zurchlc**_.
 
@@ -77,9 +77,9 @@ En este Repositorio encontraras:
       );
       ```
 
-    - Por medio de clases se resetean las etiquetas de los archivos HTML ; llevando a sus atributos como _border, margin, padding, height, width, font-size y font-family, box-sizing, word-wrap, background y color_; tengan un estado inical en común.
+    - Por medio de clases se resetean las etiquetas de los archivos HTML; llevando a sus atributos como _border, margin, padding, height, width, font-size y font-family, box-sizing, word-wrap, background y color_; tengan un estado inicial en común.
 
-    - Para los tamaños de las cajas _contenedodras(padre e hijo)_, _imagenes_ y _fuentes_; se utiliza _**Fluid Design**_, basados en la filosofia de _[UTOPIA Fluid Responsive Design
+    - Para los tamaños de las cajas _contenedodras(padre e hijo)_, _imagenes_ y _fuentes_; se utiliza _**Fluid Design**_, basados en la filosofía de _[UTOPIA Fluid Responsive Design
       ](https://utopia.fyi/type/calculator/)_.
 
       ```css
@@ -101,10 +101,14 @@ En este Repositorio encontraras:
 
 <br>
 
+<div align="right">
+  Design by  <a href="https://github.com/davkode" target="_blank"> davKode </a>
+</div>
+
 ---
 
 Visita mis redes sociales:
 
 - <a href="https://www.linkedin.com/in/davisquintero/" target="_blank"> _**Linkedin**_ </a>
-- <a href="https://github.com/davkintero" target="_blank"> _**GitHub**_ </a>
-- <a href="https://www.instagram.com/davkintero1/" target="_blank"> _**Instagran**_ </a>
+- <a href="https://github.com/davkode" target="_blank"> _**GitHub**_ </a>
+- <a href="https://www.instagram.com/davkode1/" target="_blank"> _**Instagran**_ </a>
