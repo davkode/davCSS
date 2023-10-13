@@ -36,10 +36,22 @@
     padding-bottom: 0.15rem;
     width: auto;
     position: relative;
-    font-family: var(--font-p);
     font-weight: bold;
     text-align: center;
     color: var(--cl-white);
+    &::before {
+      content: " ";
+      width: 0;
+      height: 0.15rem;
+      background-color: var(--cl-white);
+      position: absolute;
+      bottom: 0;
+      transition: all 0.3s ease-in-out;
+    }
+    &:hover::before {
+      left: 0;
+      width: 100%;
+    }
   }
 }
 .menu-open {
@@ -83,14 +95,16 @@
 
 /* ! _Footer_ */
 .container-footer {
-  padding: 1rem;
   min-height: auto;
-  background-color: var(--cl-white);
+  color: var(--cl-white);
+  background-image: var(--bg-radial);
+  .box-footer {
+    margin: auto;
+  }
 }
 .copy-p {
   margin: auto;
   width: auto;
-  font-size: var(--step-0);
 }
 
 /* ? _Firma_ */
