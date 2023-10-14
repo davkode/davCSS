@@ -2,3 +2,21 @@
 @import "dav/dav-icon.css";
 @import "app/dav-layout.css";
 @import "app/dav-component.css";
+
+.dav-button-s {
+  color: var(--cl-black);
+}
+
+/* ! _Footer_ */
+/* ? _Footer - Social_ */
+.footer-social {
+  & a {
+    border-left: 0.2rem solid var(--cl-white);
+    border-radius: 50%;
+    padding: 0.5rem;
+    color: var(--cl-white);
+  }
+}
+.zmdi-code {
+  color: var(--cl-green);
+}
