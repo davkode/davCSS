@@ -18,7 +18,7 @@
 /* ? _Header - Logo_ */
 .header-logo {
   & img {
-    max-width: calc(var(--step-5) * 4);
+    max-width: calc(var(--step-3) * 2);
   }
 }
 
@@ -109,6 +109,7 @@
 
 /* ? _Footer - Firma_ */
 .footer-firma {
+  width: auto;
   & a {
     margin-left: 0.5rem;
     & img {
@@ -121,9 +122,6 @@
 .footer-social {
   margin: auto;
   width: 50%;
-  & a {
-    font-size: var(--step-1);
-  }
 }
 
 /* *** ---- Sinze ==> L / From ==> 62em ---- */

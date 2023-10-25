@@ -3,8 +3,21 @@
 @import "app/dav-layout.css";
 @import "app/dav-component.css";
 
+ul {
+  width: 100%;
+  list-style: none;
+}
+
 .dav-button-s {
   color: var(--cl-black);
+}
+
+/* ! _Seccion - Hero_ */
+/* ? _Hero - Content -left_ */
+.hero-title {
+  & h1 {
+    color: var(--cl-grey);
+  }
 }
 
 /* ! _Footer_ */
