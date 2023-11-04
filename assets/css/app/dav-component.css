@@ -1,25 +1,28 @@
 @import "../dav/dav-style.css";
 
 /* ! _Banner - BG_ */
-.dav-container-banner-img {
+.container-banner {
   min-height: 60vh;
   background-image: url("../../img/banner/");
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-.dav-box-banner-img {
+.box-banner {
   background-color: var(--cl-blue-rgba);
 }
-.dav-banner-content {
+.banner-content {
   width: 100%;
-  color: var(--cl-white);
-}
-.dav-banner-p {
-  font-size: var(--step-1);
-}
-.dav-banner-button {
-  width: 70%;
+  & h1 {
+    width: 100%;
+    font-size: var(--step-4);
+  }
+  & p {
+    width: 100%;
+  }
+  .banner-button {
+    width: 70%;
+  }
 }
 
 /* ! _Seccion - Hero_ */
@@ -30,8 +33,7 @@
 .hero-content {
   width: 100%;
 }
-
-/* ? _Hero - Content -left_ */
+/* ? _Hero - Content - left_ */
 .hero-content-left {
   .hero-title {
     width: 100%;
@@ -44,10 +46,10 @@
   }
   .hero-text {
     width: 100%;
-    font-size: var(--step-1);
     .hero-text-item {
       margin-top: 0.5rem;
       width: inherit;
+      font-size: var(--step-1);
       & img {
         max-width: calc(var(--step--1) * 1.7);
       }
@@ -97,12 +99,6 @@
   min-height: 0.13rem;
   background-color: var(--cl-grey);
 }
-/*.dav-line-fine {
-  min-height: 0.125rem;
-}
-.dav-line-thick {
-  min-height: 0.15rem;
-}*/
 
 /* ! _Botones_ */
 .dav-button {
@@ -166,29 +162,14 @@
   }
 }
 
-/*.card-border-bottom {
-  border-bottom: 0.15rem solid var(--cl-grey);
-}
-.card-border-left {
-  border-left: 0.15rem solid var(--cl-grey);
-}
-.card-border-right {
-  border-right: 0.15rem solid var(--cl-grey);
-}*/
-
+/* *** ---- Sinze ==> L / From ==> 62em ---- */
 @media (width >= 62em) {
   /* ! _Banner - BG_ */
-  .l-dav-container-banner-img {
+  .container-banner {
     background-position: right top;
   }
-  .l-dav-box-banner-img {
+  .box-banner {
     background-color: transparent;
     background-image: var(--bg-gradient);
-  }
-  .l-dav-banner-content {
-    width: 70%;
-  }
-  .l-dav-banner-button {
-    width: 20%;
   }
 }
