@@ -73,6 +73,8 @@ html {
   box-sizing: inherit;
   margin: 0;
   padding: 0;
+  min-width: 0;
+  position: relative;
   word-wrap: inherit;
 }
 
@@ -100,6 +102,7 @@ h4,
 h5,
 h6 {
   margin: 0;
+  text-wrap: balance;
 }
 
 h1 {
@@ -147,6 +150,7 @@ main {
 p {
   /* font-size: calc(var(--step-1) * 1.2); */
   line-height: 1.4;
+  text-wrap: pretty;
 }
 
 /*ul {
